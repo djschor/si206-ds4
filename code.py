@@ -1,3 +1,4 @@
+
 # function to return the factorial of a number
 # Add comments
 def factorial(num):
@@ -27,8 +28,11 @@ print("factorial(0): {}".format(factorial(0)))
 print("factorial(1): {}".format(factorial(1)))
 print("factorial(5): {}".format(factorial(5)))
 print("factorial(-3): {}".format(factorial(-3)))
+print("factorial(1000): {}".format(factorial(1000)))
+print("factorial(-10): {}".format(factorial(-10)))
 
 print("check_leap_year(2000): {}".format(check_leap_year(2000)))
 print("check_leap_year(1990): {}".format(check_leap_year(1990)))
 print("check_leap_year(2012): {}".format(check_leap_year(2012)))
 print("check_leap_year(2100): {}".format(check_leap_year(2100)))
+print("check_leap_year(1000:{}".format(check_leap_year(1000)))
